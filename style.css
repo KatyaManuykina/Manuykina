@@ -1,0 +1,26 @@
+div{
+    color: #db0c0c;
+    /* background-color: rgb(63, 63, 182); */
+    width: 500px;
+    max-width: 700px;
+    min-width: 300px;
+    width: max-content;
+    width: min-content;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    font-size: 50px;
+    line-height: 150px;
+    letter-spacing: 10px;
+
+    font-weight: 900;
+    font-style: italic;
+
+    background-image: url(cat.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: contain;
+    background-attachment: fixed;
+    background: url(cat.jpg) no-repeat center fixed;
+}
