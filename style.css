@@ -46,3 +46,32 @@ flex-direction: column-reverse;
 .item:nth-child(4){
     background-color: green;
 }
+
+
+
+.menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.menu-item > a{
+color: aqua;
+font-size: 20px;
+line-height: 24px;
+padding: 15px 20px;
+background-color: #000;
+display: block;
+}
+.menu-item{
+    position: relative;
+}
+.inside-menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+}
+.menu-item:hover .inside-menu{
+display: block;
+}
